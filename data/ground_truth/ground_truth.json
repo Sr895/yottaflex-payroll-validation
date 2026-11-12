@@ -1,0 +1,36 @@
+{
+  "seed": 20261022,
+  "expected_source_records": 100000,
+  "planted_anomalies": [
+    {
+      "anomaly": "EXCESS_HOURS",
+      "record_id": "TE-00001-01-01",
+      "employee_id": "EMP-00001",
+      "pay_period_id": "PP-001"
+    },
+    {
+      "anomaly": "DUPLICATE_ALLOWANCE",
+      "record_id": "AL-DUPLICATE-0001",
+      "employee_id": "EMP-01084",
+      "pay_period_id": "PP-002"
+    },
+    {
+      "anomaly": "UNAPPROVED_TIME",
+      "record_id": "TE-00001-01-01",
+      "employee_id": "EMP-00001",
+      "pay_period_id": "PP-001"
+    },
+    {
+      "anomaly": "DUPLICATE_LEAVE_DEDUCTION",
+      "record_id": "DE-LEAVE-0002",
+      "employee_id": "EMP-00002",
+      "pay_period_id": "PP-001"
+    },
+    {
+      "anomaly": "RECONCILIATION_FAILURE",
+      "record_id": "PAYROLL-EMP-00003-PP-001",
+      "employee_id": "EMP-00003",
+      "pay_period_id": "PP-001"
+    }
+  ]
+}
